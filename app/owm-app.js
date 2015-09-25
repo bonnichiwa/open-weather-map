@@ -1,4 +1,4 @@
-angular.module('OWMApp', ['ngRoute'])
+angular.module('OWMApp', ['ngRoute', 'ngAnimate'])
 
   .run(function($rootScope, $location, $timeout) {
     $rootScope.$on('$routeChangeError', function() {
